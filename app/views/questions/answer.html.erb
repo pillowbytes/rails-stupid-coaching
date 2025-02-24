@@ -1,0 +1,10 @@
+<div class="alert alert-primary" role="alert">
+  <p><strong><%= params[:question] %></strong></p>
+  <p><em>-You</em></p>
+</div>
+
+<div class="alert alert-warning" role="alert">
+  <p><strong><%= @answer %></strong></p>
+  <p><em>-Stupid Coach<em></p>
+</div>
+<%= link_to 'Ask a new question', ask_path %>
